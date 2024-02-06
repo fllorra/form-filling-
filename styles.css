@@ -1,0 +1,56 @@
+* {
+    margin: 10px;
+    padding: auto;
+  }
+  
+  body {
+    background-color: snow;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+  
+  #survey-form {
+    border: 2px solid;
+    background-color: darkgrey;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  #name,
+  #email,
+  #number {
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  select {
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  label {
+    width: 200px;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  input[type="check-box"],
+  input[type="radio"] {
+    text-align: left;
+  }
+  
+  textarea {
+    width: 230px;
+  }
+  
+  #submit {
+    width: 200px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+  #submit:hover {
+    color: red;
+  }
